@@ -1,0 +1,161 @@
+# do fpga.do 
+# ** Warning: (vlib-34) Library already exists at "work".
+# 
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module fpga
+# 
+# Top level modules:
+# 	fpga
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module fpga_vlg_sample_tst
+# -- Compiling module fpga_vlg_check_tst
+# -- Compiling module fpga_vlg_vec_tst
+# 
+# Top level modules:
+# 	fpga_vlg_vec_tst
+# vsim -L cycloneii_ver -L altera_ver -L altera_mf_ver -L 220model_ver -L sgate -c -t 1ps -novopt work.fpga_vlg_vec_tst 
+# Loading work.fpga_vlg_vec_tst
+# Loading work.fpga
+# Loading cycloneii_ver.cycloneii_ram_block
+# Loading cycloneii_ver.cycloneii_ram_register
+# Loading cycloneii_ver.cycloneii_ram_pulse_generator
+# Loading cycloneii_ver.cycloneii_lcell_comb
+# Loading cycloneii_ver.cycloneii_io
+# Loading cycloneii_ver.cycloneii_mux21
+# Loading cycloneii_ver.cycloneii_dffe
+# Loading cycloneii_ver.cycloneii_asynch_io
+# Loading cycloneii_ver.cycloneii_clkctrl
+# Loading cycloneii_ver.cycloneii_mux41
+# Loading cycloneii_ver.cycloneii_ena_reg
+# Loading work.fpga_vlg_sample_tst
+# Loading work.fpga_vlg_check_tst
+# SDF 10.1d Compiler 2012.11 Nov  2 2012
+# 
+# Loading instances from fpga_v.sdo
+# ** Warning: (vsim-3015) fpga.vo(2192): [PCDPC] - Port size (2 or 2) does not match connection size (1) for port 'portaaddr'. The port definition is at: c:/altera/13.0sp1/modelsim_ase/win32aloem/../altera/verilog/src/cycloneii_atoms.v(516).
+# 
+#         Region: /fpga_vlg_vec_tst/i1/\cromossomo|altsyncram_component|auto_generated|ram_block1a375 
+# ** Warning: (vsim-3015) fpga.vo(2192): [PCDPC] - Port size (2 or 2) does not match connection size (1) for port 'portbaddr'. The port definition is at: c:/altera/13.0sp1/modelsim_ase/win32aloem/../altera/verilog/src/cycloneii_atoms.v(519).
+# 
+#         Region: /fpga_vlg_vec_tst/i1/\cromossomo|altsyncram_component|auto_generated|ram_block1a375 
+# ** Warning: (vsim-8602) Replication multiplier (0) should be greater than zero.  Using 1.
+# 
+# ** Warning: (vsim-8602) Replication multiplier (0) should be greater than zero.  Using 1.
+# 
+# ** Warning: (vsim-3015) fpga.vo(2244): [PCDPC] - Port size (2 or 2) does not match connection size (1) for port 'portaaddr'. The port definition is at: c:/altera/13.0sp1/modelsim_ase/win32aloem/../altera/verilog/src/cycloneii_atoms.v(516).
+# 
+#         Region: /fpga_vlg_vec_tst/i1/\cromossomo|altsyncram_component|auto_generated|ram_block1a147 
+# ** Warning: (vsim-3015) fpga.vo(2244): [PCDPC] - Port size (2 or 2) does not match connection size (1) for port 'portbaddr'. The port definition is at: c:/altera/13.0sp1/modelsim_ase/win32aloem/../altera/verilog/src/cycloneii_atoms.v(519).
+# 
+#         Region: /fpga_vlg_vec_tst/i1/\cromossomo|altsyncram_component|auto_generated|ram_block1a147 
+# ** Warning: (vsim-8602) Replication multiplier (0) should be greater than zero.  Using 1.
+# 
+# ** Warning: (vsim-8602) Replication multiplier (0) should be greater than zero.  Using 1.
+# 
+# ** Warning: (vsim-3015) fpga.vo(2296): [PCDPC] - Port size (2 or 2) does not match connection size (1) for port 'portaaddr'. The port definition is at: c:/altera/13.0sp1/modelsim_ase/win32aloem/../altera/verilog/src/cycloneii_atoms.v(516).
+# 
+#         Region: /fpga_vlg_vec_tst/i1/\cromossomo|altsyncram_component|auto_generated|ram_block1a12 
+# ** Warning: (vsim-3015) fpga.vo(2296): [PCDPC] - Port size (2 or 2) does not match connection size (1) for port 'portbaddr'. The port definition is at: c:/altera/13.0sp1/modelsim_ase/win32aloem/../altera/verilog/src/cycloneii_atoms.v(519).
+# 
+#         Region: /fpga_vlg_vec_tst/i1/\cromossomo|altsyncram_component|auto_generated|ram_block1a12 
+# ** Warning: (vsim-8602) Replication multiplier (0) should be greater than zero.  Using 1.
+# 
+# ** Warning: (vsim-8602) Replication multiplier (0) should be greater than zero.  Using 1.
+# 
+# ** Warning: (vsim-3015) fpga.vo(2348): [PCDPC] - Port size (2 or 2) does not match connection size (1) for port 'portaaddr'. The port definition is at: c:/altera/13.0sp1/modelsim_ase/win32aloem/../altera/verilog/src/cycloneii_atoms.v(516).
+# 
+#         Region: /fpga_vlg_vec_tst/i1/\cromossomo|altsyncram_component|auto_generated|ram_block1a72 
+# ** Warning: (vsim-3015) fpga.vo(2348): [PCDPC] - Port size (2 or 2) does not match connection size (1) for port 'portbaddr'. The port definition is at: c:/altera/13.0sp1/modelsim_ase/win32aloem/../altera/verilog/src/cycloneii_atoms.v(519).
+# 
+#         Region: /fpga_vlg_vec_tst/i1/\cromossomo|altsyncram_component|auto_generated|ram_block1a72 
+# ** Warning: (vsim-8602) Replication multiplier (0) should be greater than zero.  Using 1.
+# 
+# ** Warning: (vsim-8602) Replication multiplier (0) should be greater than zero.  Using 1.
+# 
+# ** Warning: (vsim-3015) fpga.vo(2400): [PCDPC] - Port size (2 or 2) does not match connection size (1) for port 'portaaddr'. The port definition is at: c:/altera/13.0sp1/modelsim_ase/win32aloem/../altera/verilog/src/cycloneii_atoms.v(516).
+# 
+#         Region: /fpga_vlg_vec_tst/i1/\cromossomo|altsyncram_component|auto_generated|ram_block1a150 
+# ** Warning: (vsim-3015) fpga.vo(2400): [PCDPC] - Port size (2 or 2) does not match connection size (1) for port 'portbaddr'. The port definition is at: c:/altera/13.0sp1/modelsim_ase/win32aloem/../altera/verilog/src/cycloneii_atoms.v(519).
+# 
+#         Region: /fpga_vlg_vec_tst/i1/\cromossomo|altsyncram_component|auto_generated|ram_block1a150 
+# ** Warning: (vsim-8602) Replication multiplier (0) should be greater than zero.  Using 1.
+# 
+# ** Warning: (vsim-8602) Replication multiplier (0) should be greater than zero.  Using 1.
+# 
+# ** Warning: (vsim-3015) fpga.vo(2452): [PCDPC] - Port size (2 or 2) does not match connection size (1) for port 'portaaddr'. The port definition is at: c:/altera/13.0sp1/modelsim_ase/win32aloem/../altera/verilog/src/cycloneii_atoms.v(516).
+# 
+#         Region: /fpga_vlg_vec_tst/i1/\cromossomo|altsyncram_component|auto_generated|ram_block1a135 
+# ** Warning: (vsim-3015) fpga.vo(2452): [PCDPC] - Port size (2 or 2) does not match connection size (1) for port 'portbaddr'. The port definition is at: c:/altera/13.0sp1/modelsim_ase/win32aloem/../altera/verilog/src/cycloneii_atoms.v(519).
+# 
+#         Region: /fpga_vlg_vec_tst/i1/\cromossomo|altsyncram_component|auto_generated|ram_block1a135 
+# ** Warning: (vsim-8602) Replication multiplier (0) should be greater than zero.  Using 1.
+# 
+# ** Warning: (vsim-8602) Replication multiplier (0) should be greater than zero.  Using 1.
+# 
+# ** Warning: (vsim-3015) fpga.vo(2504): [PCDPC] - Port size (2 or 2) does not match connection size (1) for port 'portaaddr'. The port definition is at: c:/altera/13.0sp1/modelsim_ase/win32aloem/../altera/verilog/src/cycloneii_atoms.v(516).
+# 
+#         Region: /fpga_vlg_vec_tst/i1/\cromossomo|altsyncram_component|auto_generated|ram_block1a120 
+# ** Warning: (vsim-3015) fpga.vo(2504): [PCDPC] - Port size (2 or 2) does not match connection size (1) for port 'portbaddr'. The port definition is at: c:/altera/13.0sp1/modelsim_ase/win32aloem/../altera/verilog/src/cycloneii_atoms.v(519).
+# 
+#         Region: /fpga_vlg_vec_tst/i1/\cromossomo|altsyncram_component|auto_generated|ram_block1a120 
+# ** Warning: (vsim-8602) Replication multiplier (0) should be greater than zero.  Using 1.
+# 
+# ** Warning: (vsim-8602) Replication multiplier (0) should be greater than zero.  Using 1.
+# 
+# ** Warning: (vsim-3015) fpga.vo(2556): [PCDPC] - Port size (2 or 2) does not match connection size (1) for port 'portaaddr'. The port definition is at: c:/altera/13.0sp1/modelsim_ase/win32aloem/../altera/verilog/src/cycloneii_atoms.v(516).
+# 
+#         Region: /fpga_vlg_vec_tst/i1/\cromossomo|altsyncram_component|auto_generated|ram_block1a126 
+# ** Warning: (vsim-3015) fpga.vo(2556): [PCDPC] - Port size (2 or 2) does not match connection size (1) for port 'portbaddr'. The port definition is at: c:/altera/13.0sp1/modelsim_ase/win32aloem/../altera/verilog/src/cycloneii_atoms.v(519).
+# 
+#         Region: /fpga_vlg_vec_tst/i1/\cromossomo|altsyncram_component|auto_generated|ram_block1a126 
+# ** Warning: (vsim-8602) Replication multiplier (0) should be greater than zero.  Using 1.
+# 
+# ** Warning: (vsim-8602) Replication multiplier (0) should be greater than zero.  Using 1.
+# 
+# ** Warning: (vsim-3015) fpga.vo(2608): [PCDPC] - Port size (2 or 2) does not match connection size (1) for port 'portaaddr'. The port definition is at: c:/altera/13.0sp1/modelsim_ase/win32aloem/../altera/verilog/src/cycloneii_atoms.v(516).
+# 
+#         Region: /fpga_vlg_vec_tst/i1/\cromossomo|altsyncram_component|auto_generated|ram_block1a30 
+# ** Warning: (vsim-3015) fpga.vo(2608): [PCDPC] - Port size (2 or 2) does not match connection size (1) for port 'portbaddr'. The port definition is at: c:/altera/13.0sp1/modelsim_ase/win32aloem/../altera/verilog/src/cycloneii_atoms.v(519).
+# 
+#         Region: /fpga_vlg_vec_tst/i1/\cromossomo|altsyncram_component|auto_generated|ram_block1a30 
+# ** Warning: (vsim-8602) Replication multiplier (0) should be greater than zero.  Using 1.
+# 
+# ** Warning: (vsim-8602) Replication multiplier (0) should be greater than zero.  Using 1.
+# 
+# ** Warning: (vsim-3015) fpga.vo(2660): [PCDPC] - Port size (2 or 2) does not match connection size (1) for port 'portaaddr'. The port definition is at: c:/altera/13.0sp1/modelsim_ase/win32aloem/../altera/verilog/src/cycloneii_atoms.v(516).
+# 
+#         Region: /fpga_vlg_vec_tst/i1/\cromossomo|altsyncram_component|auto_generated|ram_block1a0 
+# ** Warning: (vsim-3015) fpga.vo(2660): [PCDPC] - Port size (2 or 2) does not match connection size (1) for port 'portbaddr'. The port definition is at: c:/altera/13.0sp1/modelsim_ase/win32aloem/../altera/verilog/src/cycloneii_atoms.v(519).
+# 
+#         Region: /fpga_vlg_vec_tst/i1/\cromossomo|altsyncram_component|auto_generated|ram_block1a0 
+# ** Warning: (vsim-8602) Replication multiplier (0) should be greater than zero.  Using 1.
+# 
+# ** Warning: (vsim-8602) Replication multiplier (0) should be greater than zero.  Using 1.
+# 
+# ** Warning: (vsim-3015) fpga.vo(2712): [PCDPC] - Port size (2 or 2) does not match connection size (1) for port 'portaaddr'. The port definition is at: c:/altera/13.0sp1/modelsim_ase/win32aloem/../altera/verilog/src/cycloneii_atoms.v(516).
+# 
+#         Region: /fpga_vlg_vec_tst/i1/\cromossomo|altsyncram_component|auto_generated|ram_block1a51 
+# ** Warning: (vsim-3015) fpga.vo(2712): [PCDPC] - Port size (2 or 2) does not match connection size (1) for port 'portbaddr'. The port definition is at: c:/altera/13.0sp1/modelsim_ase/win32aloem/../altera/verilog/src/cycloneii_atoms.v(519).
+# 
+#         Region: /fpga_vlg_vec_tst/i1/\cromossomo|altsyncram_component|auto_generated|ram_block1a51 
+# ** Warning: (vsim-8602) Replication multiplier (0) should be greater than zero.  Using 1.
+# 
+# ** Warning: (vsim-8602) Replication multiplier (0) should be greater than zero.  Using 1.
+# 
+# ** Warning: (vsim-3015) fpga.vo(2764): [PCDPC] - Port size (2 or 2) does not match connection size (1) for port 'portaaddr'. The port definition is at: c:/altera/13.0sp1/modelsim_ase/win32aloem/../altera/verilog/src/cycloneii_atoms.v(516).
+# 
+#         Region: /fpga_vlg_vec_tst/i1/\cromossomo|altsyncram_component|auto_generated|ram_block1a66 
+# ** Warning: (vsim-3015) fpga.vo(2764): [PCDPC] - Port size (2 or 2) does not match connection size (1) for port 'portbaddr'. The port definition is at: c:/altera/13.0sp1/modelsim_ase/win32aloem/../altera/verilog/src/cycloneii_atoms.v(519).
+# 
+#         Region: /fpga_vlg_vec_tst/i1/\cromossomo|altsyncram_component|auto_generated|ram_block1a66 
+# ** Warning: (vsim-8602) Replication multiplier (0) should be greater than zero.  Using 1.
+# 
+# ** Warning: (vsim-8602) Replication multiplier (0) should be greater than zero.  Using 1.
+# 
+# Loading cycloneii_ver.CYCLONEII_PRIM_DFFE
+# Loading timing data from fpga_v.sdo
+# ** Note: (vsim-3587) SDF Backannotation Successfully Completed.
+#    Time: 0 ps  Iteration: 0  Instance: /fpga_vlg_vec_tst File: fpga.vt
+# Simulation passed !
+# ** Note: $finish    : fpga.vt(413)
+#    Time: 1 us  Iteration: 0  Instance: /fpga_vlg_vec_tst/tb_out
